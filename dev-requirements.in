@@ -6,9 +6,10 @@ mock~=1.3
 # Bound more-itertools so tests can still run on Python 2.
 more-itertools<6
 
-# TODO: Upgrade moto and/or pytest someday.
+# TODO: Upgrade moto someday, maybe when we drop boto2.
 moto~=0.4
-pytest~=3.4
+pytest~=4.6
+pytest-cov~=2.10
 
 
 # Tools for development or for running tests.
